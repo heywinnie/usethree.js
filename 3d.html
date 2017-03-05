@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>3Dtest</title>
+    <script type="text/javascript" src="js/three.js"></script>
+    <script type="text/javascript" src="js/myjs.js"></script>
+    <script type="text/javascript" src="js/TrackballControls.js"></script>
+    <script type="text/javascript" src="js/stat.js"></script>
+    <style>
+
+        body{
+            padding: 0;
+            margin: 0;
+        }
+        a{
+            position: absolute;
+            right:366px;
+            top:546px;
+            color: #fff;
+            font-size: 25px;
+            text-decoration: none;
+            font-family:Arial, Helvetica, sans-serif;
+            padding:10px 30px;
+            background-color: #888;
+        }
+        a:hover{
+            background-color: #cecece;
+        }
+    </style>
+</head>
+
+<body onload="init()">
+        <a href="#" onclick="drop();drop1()">点击</a>
+        <canvas id="mainCanvas" width="1000px" height="600px"></canvas>
+
+
+</body>
+
+</html>
